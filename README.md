@@ -6,6 +6,9 @@ This project explores global COVID-19 data using MySQL to uncover trends in infe
 
 The analysis focuses on transforming raw data into meaningful insights through SQL queries, aggregations, joins, window functions, Common Table Expressions (CTEs), temporary tables, and views.
 
+## Credits
+
+This project was inspired by a data analytics tutorial by Alex The Analyst on YouTube.
 ---
 
 ## Objectives
