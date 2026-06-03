@@ -122,10 +122,8 @@ COVID-19-Data-Exploration/
 ├── CovidDeaths.csv
 ├── CovidVaccinations.csv
 ├── COVID Portfolio Project.sql
-├── PowerBI/
-│ └── dashboard.pbix
-├── Images/
-│ └── dashboard.png
+├── dashboard.pbix
+├──dashboard.png
 └── README.md
 
 
