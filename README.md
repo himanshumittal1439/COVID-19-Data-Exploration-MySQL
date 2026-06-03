@@ -1,155 +1,154 @@
-# COVID-19 Data Exploration Using MySQL
+# 🦠 COVID-19 Data Exploration Using MySQL & Power BI
 
-## Project Overview
+## 📊 Project Overview
 
-This project explores global COVID-19 data using MySQL to uncover trends in infection rates, death rates, and vaccination progress across countries and continents.
+This project explores global COVID-19 data using **MySQL for data exploration and analysis** and **Power BI for visualization**.  
 
-The analysis focuses on transforming raw data into meaningful insights through SQL queries, aggregations, joins, window functions, Common Table Expressions (CTEs), temporary tables, and views.
+The goal is to transform raw public health data into meaningful insights by analyzing infection trends, death rates, and vaccination progress across countries and continents.
 
-## Credits
-
-This project was inspired by a data analytics tutorial by Alex The Analyst on YouTube.
----
-
-## Objectives
-
-* Analyze COVID-19 cases and deaths across different countries.
-* Calculate infection and mortality percentages.
-* Identify countries with the highest infection rates.
-* Identify countries with the highest death counts.
-* Compare COVID-19 impact across continents.
-* Analyze vaccination progress over time.
-* Practice advanced SQL techniques on a real-world dataset.
+The project follows a full data analytics workflow:
+**Data Cleaning → SQL Analysis → Insight Generation → Dashboard Visualization**
 
 ---
 
-## Dataset
+## 🎯 Objectives
 
-The dataset used in this project is the COVID-19 dataset published by Our World in Data.
-
-Tables Used:
-
-* CovidDeaths
-* CovidVaccinations
-
-Key fields analyzed:
-
-* Location
-* Date
-* Population
-* Total Cases
-* New Cases
-* Total Deaths
-* New Deaths
-* New Vaccinations
+- Analyze COVID-19 cases and deaths across different countries
+- Calculate infection and mortality rates
+- Identify countries with the highest infection and death counts
+- Compare COVID-19 impact across continents
+- Analyze vaccination progress over time
+- Build an interactive Power BI dashboard for visualization
 
 ---
 
-## SQL Skills Demonstrated
+## 🗄️ Dataset
+
+The dataset is sourced from **Our World in Data**.
+
+### Tables Used:
+- CovidDeaths
+- CovidVaccinations
+
+### Key Fields:
+- Location
+- Date
+- Population
+- Total Cases
+- New Cases
+- Total Deaths
+- New Deaths
+- New Vaccinations
+
+---
+
+## 🛠️ Tools & Technologies
+
+- MySQL
+- Power BI
+- SQL (Joins, CTEs, Window Functions, Aggregations)
+- Data Visualization
+
+---
+
+## 📊 Power BI Dashboard
+
+The dashboard visualizes key COVID-19 metrics including cases, deaths, infection rates, and country-wise comparisons.
+
+## 📈 Key Insights
+
+- Countries with smaller populations showed higher infection percentages
+- Death rates varied significantly across continents and regions
+- Vaccination rollout significantly impacted reduction in new cases
+- United States recorded the highest total number of deaths
+- Global infection trends peaked in multiple waves over time
+
+---
+
+## 🧠 SQL Skills Demonstrated
 
 ### Data Exploration
-
-* Filtering and sorting data
-* Calculating percentages and ratios
-* Country-level and continent-level analysis
+- Filtering and sorting data
+- Calculating percentages and ratios
+- Country-level and continent-level analysis
 
 ### Data Cleaning
+- Handling NULL values
+- Data type conversion using CAST()
+- Standardizing inconsistent values
 
-* Handling NULL values
-* Trimming inconsistent values
-* Type conversion using CAST()
-
-### SQL Concepts Used
-
-* Joins
-* Aggregate Functions
-* Window Functions
-* Common Table Expressions (CTEs)
-* Temporary Tables
-* Views
-* Partitioning
-* Running Totals
+### Advanced SQL Concepts
+- Joins
+- Aggregate Functions
+- Window Functions
+- Common Table Expressions (CTEs)
+- Temporary Tables
+- Views
+- Running Totals
+- Partitioning
 
 ---
 
-## Analysis Performed
+## 📊 Analysis Performed
 
-### Total Cases vs Total Deaths
+### 1. Total Cases vs Total Deaths
+Calculated the likelihood of death after contracting COVID-19.
 
-Calculated the likelihood of death after contracting COVID-19 for selected countries.
+### 2. Total Cases vs Population
+Measured infection percentage relative to population size.
 
-### Total Cases vs Population
+### 3. Highest Infection Rates
+Identified countries with the highest infection percentages.
 
-Measured the percentage of a country's population infected by COVID-19.
+### 4. Highest Death Counts
+Ranked countries based on total COVID-19 deaths.
 
-### Countries with Highest Infection Rates
+### 5. Continent-Level Analysis
+Compared total deaths across continents.
 
-Identified countries with the largest proportion of infected citizens relative to population.
+### 6. Global Statistics
+- Total cases worldwide
+- Total deaths worldwide
+- Global death percentage
 
-### Countries with Highest Death Counts
-
-Ranked countries based on total reported COVID-19 deaths.
-
-### Continent-Level Analysis
-
-Compared total death counts across continents.
-
-### Global Statistics
-
-Calculated:
-
-* Total global cases
-* Total global deaths
-* Global death percentage
-
-### Vaccination Analysis
-
-Analyzed vaccination progress using cumulative vaccination counts and rolling totals.
-
-### Population vs Vaccination Analysis
-
-Calculated the percentage of the population vaccinated over time.
+### 7. Vaccination Analysis
+Analyzed vaccination progress using cumulative and rolling totals.
 
 ---
 
-## Advanced SQL Techniques
-
-### Common Table Expressions (CTEs)
-
-Used CTEs to simplify complex vaccination calculations and improve query readability.
-
-### Temporary Tables
-
-Created temporary tables to store intermediate vaccination data for further analysis.
-
-### Views
-
-Created reusable views to support future visualization and reporting projects.
-
----
-
-## Repository Structure
-
-├── COVID Portfolio Project.sql
-
+## 📁 Repository Structure
+COVID-19-Data-Exploration/
+│
 ├── CovidDeaths.csv
-
 ├── CovidVaccinations.csv
+├── COVID Portfolio Project.sql
+├── PowerBI/
+│ └── dashboard.pbix
+├── Images/
+│ └── dashboard.png
+└── README.md
 
-├── README.md
-
----
-
-## Future Improvements
-
-* Build an interactive Tableau dashboard.
-* Create Power BI visualizations.
-* Add time-series trend analysis.
-* Perform country-to-country comparisons.
-* Develop automated reporting workflows.
 
 ---
 
-## Key Takeaways
+## 🚀 Future Improvements
 
-This project strengthened my understanding of SQL-based exploratory data analysis using real-world data. It provided hands-on experience working with large datasets and applying advanced SQL techniques to generate meaningful business and public health insights.
+- Add more interactive Power BI filters and slicers
+- Build time-series forecasting analysis
+- Automate data pipeline for updates
+- Expand analysis to regional healthcare comparisons
+
+---
+
+## 🎯 Project Impact
+
+This project demonstrates how raw public health data can be transformed into actionable insights using SQL and Power BI.  
+
+It reflects real-world data analyst workflows including data extraction, transformation, analysis, and visualization.
+
+---
+
+## 👨‍💻 Author
+
+Himanshu
+Aspiring Data Analyst | SQL | Power BI | Data Visualization
